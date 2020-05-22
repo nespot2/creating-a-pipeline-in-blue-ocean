@@ -6,7 +6,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'git --version'
-        sh 'npm install'
       }
     }
     stage('Test') {
