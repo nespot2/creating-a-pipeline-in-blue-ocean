@@ -1,4 +1,3 @@
 #!/usr/bin/env sh
 
-
-echo "test"
+echo 'The following "npm" command (if executed) installs the "cross-env"'
