@@ -1,11 +1,9 @@
 pipeline {
-  agent {
-    dockerfile true
-  }
+  agent any
   stages {
     stage('Build') {
       steps {
-        sh 'git --version'
+        sh 'docker --version'
       }
     }
     stage('Test') {
